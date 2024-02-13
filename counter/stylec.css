@@ -1,0 +1,23 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em; 
+}
+
+#count{
+    font-size: 3em;
+    margin:240px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: hsl(214, 69%, 22%);
+    color: white;
+    transition: background-color 0.35s;
+}
+
+button:hover{
+    background-color: hsl(332, 66%, 61%);
+}
