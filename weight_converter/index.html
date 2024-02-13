@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Weight Converter</h1>
+        <input type="number" id="textBox"><br>
+
+        <input type="radio" id="toKgs" name="unit">
+        <label for="toKgs">Pounds to Kgs</label><br>
+
+        <input type="radio" id="toPounds" name="unit">
+        <label for="toPounds">Kgs to Pounds</label><br>
+
+        <button type="button"  onclick="convert()" >Submit</button>
+
+        <p id="result"></p>
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
